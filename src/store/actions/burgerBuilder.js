@@ -23,7 +23,7 @@ export const setIngredients = (ingredients) => {
     }
 }
 
-export const fetchIngredientsFailed = (ingredients) => {
+export const fetchIngredientsFailed = (error) => {
     return{
         type:actionTypes.FETCH_INGREDIENTS_FAILED,
     }
